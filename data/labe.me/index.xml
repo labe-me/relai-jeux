@@ -1,0 +1,65 @@
+<?xml version="1.0">
+<!--
+     <studio
+       version="1"
+       name="Le nom du studio"
+       url="Le site web du studio"
+     >
+
+       Uniquement des jeux terminés et sortis, pas de preview (pour l'instant).
+
+       <game
+         name="Nom du jeu"
+         url="Site web du jeu"
+       >
+
+         <platform
+           type="ios|android|web|osx|windows|linux|xbox|..."
+           date="Date de sortie YYYY-MM-DD"
+           url="Adresse spécifique à la plateforme"
+         />
+
+     ...
+-->
+<studio version="1" name="labe.me" url="http://labe.me">
+
+  <game name="Flying Saucer Championship" url="http://saucer.labe.me">
+    <desc>Une course d'OVNI nécessitant un contrôleur LEAP Motion.</desc>
+    <video url="" />
+    <platform
+        type="web"
+        date="2013-02-27"
+        url="http://saucer.labe.me"
+    />
+  </game>
+
+  <game name="Proselytizer" url="http://proselytizer.labe.me">
+    <desc>Un shoot'em up aventure réalisé dans le cadre de #OneGameAMonth</desc>
+    <video url="http://youtu.be/ADDiPdBqDbE" />
+    <platform
+        type="web"
+        date="2013-01-31"
+        url="http://proselytizer.labe.me"
+        />
+  </game>
+
+  <game name="Bloblocks" url="http://bloblocks.labe.me">
+    <desc>Un puzzle game, une étrange introspection.</desc>
+    <platform
+        type="ios"
+        date="2012-10-27"
+        url="http://itunes.com/apps/bloblocks"
+        />
+    <platform
+        type="android"
+        date="2012-10-31"
+        url="https://play.google.com/store/apps/details?id=air.me.labe.bloblocks"
+        />
+    <platform
+        type="web"
+        date="2012-12-04"
+        url="http://bloblocks.labe.me"
+        />
+  </game>
+
+</studio>
