@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* END OF CSS RESET */
+body {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-rendering: optimizeLegibility;
+  color: #222;
+  background-color: #fffdfd;
+  width: 600px;
+  margin: auto;
+}
+body h1,
+body h2,
+body h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Rum Raisin', sans-serif;
+  font-family: 'Wendy One', sans-serif;
+  font-family: 'Impact', sans-serif;
+  text-transform: uppercase;
+}
+body h1 {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: bold;
+}
+body h2 {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  margin-top: 2em;
+}
+body header,
+body footer {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+body header p,
+body footer p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1em;
+}
+body footer {
+  margin-top: 2em;
+}
+body ul li {
+  border-bottom: 1px solid #ddd;
+  margin: 0.5em 0em 0.5em 0em;
+}
+body ul li a.studio {
+  float: right;
+  text-decoration: none;
+}
+body ul li a.game {
+  font-weight: bold;
+}
+body ul li a.platform {
+  border: 1px solid #eee;
+  font-size: 12px;
+  padding: 2px 6px;
+}
+body ul li a.video {
+  border: 1px solid #fee;
+  background-color: #eefeee;
+  font-size: 12px;
+  padding: 2px 6px;
+}

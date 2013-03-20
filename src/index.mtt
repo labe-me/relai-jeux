@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Relai presse indés Français</title>
+        <link href='http://fonts.googleapis.com/css?family=Rum+Raisin' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Wendy+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>NOM RIGOLO</h1>
+            <h2>Le relai presse du jeu vidéo indépendant Français.</h2>
+        </header>
+
+
+        ::foreach days::
+        <h2>::date::</h2>
+        <ul>
+            ::foreach news::
+            <li>
+            <a class="studio" href="::studio.url::">::studio.name::</a>
+            <a class="game" href="::game.url::">::game.name::</a>
+            ::foreach platforms::
+            <a class="platform" href="::url::">::type::</a>
+            ::end::
+            <p>::game.desc::</p>
+            ::foreach game.videos::
+            <a class="video" href="::__current__::">VIDEO</a>
+            ::end::
+            </li>
+            ::end::
+        </ul>
+        ::end::
+
+        <footer>
+            <p>Maintenu de manière collective gràce à <a href="https://github.com/labe-me/relai-jeux/tree/gh-pages">GITHUB</a>.<br/> Développeurs suivez le guide pour poster vos news!</p>
+        </footer>
+    </body>
+</html>

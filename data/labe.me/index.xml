@@ -1,4 +1,4 @@
-<?xml version="1.0">
+<?xml version="1.0"?>
 <!--
      <studio
        version="1"
@@ -25,16 +25,17 @@
 
   <game name="Flying Saucer Championship" url="http://saucer.labe.me">
     <desc>Une course d'OVNI nécessitant un contrôleur LEAP Motion.</desc>
-    <video url="" />
+    <video url="http://youtu.be/PFoMPCkU6Es" />
     <platform
         type="web"
         date="2013-02-27"
+        xtestdate="2013-01-31"
         url="http://saucer.labe.me"
     />
   </game>
 
   <game name="Proselytizer" url="http://proselytizer.labe.me">
-    <desc>Un shoot'em up aventure réalisé dans le cadre de #OneGameAMonth</desc>
+    <desc>Un shoot'em up aventure réalisé dans le cadre de #OneGameAMonth.</desc>
     <video url="http://youtu.be/ADDiPdBqDbE" />
     <platform
         type="web"
