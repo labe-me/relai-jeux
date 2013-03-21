@@ -21,7 +21,7 @@ Ces nouveautés sont agrégées et le site propose une liste de toutes les produ
 Quelques intérêts
 -----------------
 
-Les journalistes spécialisées peuvent suivre l'actualité Française au jour le jour, découvrir de nouveaux studios et de nouveaux jeux mais aussi d'anciennes productions ayant manqué d'effort marketing.
+Les journalistes spécialisés peuvent suivre l'actualité Française au jour le jour, découvrir de nouveaux studios et de nouveaux jeux mais aussi d'anciennes productions ayant manqué d'effort marketing.
 
 Les joueurs Français désireux de supporter les productions nationales peuvent faire de même !
 
