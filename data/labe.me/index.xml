@@ -12,11 +12,16 @@
          name="Nom du jeu"
          url="Site web du jeu"
        >
+         <desc>Description éclair du jeu (200 caractères max)</desc>
 
          <platform
-           type="ios|android|web|osx|windows|linux|xbox|..."
-           date="Date de sortie YYYY-MM-DD"
+           type="ios|android|web|osx|windows|linux|xbox360|..."
+           date="Date de sortie sur cette plateforme au format YYYY-MM-DD"
            url="Adresse spécifique à la plateforme"
+         />
+         
+         <video
+           url="Adresse d'une vidéo du jeu"
          />
 
      ...
