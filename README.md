@@ -3,6 +3,7 @@ relai-jeux
 
 Un relai presse listant les jeux indépendants Français en Français.
 
+http://labe-me.github.com/relai-jeux/
 
 Objectif
 --------
